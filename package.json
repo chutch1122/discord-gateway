@@ -1,0 +1,18 @@
+{
+  "name": "discord-gateway",
+  "version": "1.0.0",
+  "description": "Acts as a proxy between your application and Discord and appends a User-Agent header to your requests.",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Cameron Hutchison",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chutch1122/discord-gateway.git"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "http-proxy": "1.16.2"
+  }
+}
